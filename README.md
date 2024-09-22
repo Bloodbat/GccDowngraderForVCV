@@ -13,7 +13,7 @@ To use:
 
 - Press any key to confirm and wait.
 
-- If you want to prevent pacman from updating GCC (and only GCC), run `./preventgccupgrade.sh` and wait.
+- If you want to prevent pacman from updating GCC (and only GCC), run `./preventgccupgrade.sh`, press a key and wait.
 
 - You can now build VCV Rack's dependencies **and** update other packages.
 
