@@ -1,7 +1,7 @@
 #!/bin/sh
 
 echo "GCC downgrader for MSYS2"
-echo "Copyright 2024 Bloodbat / La Serpiente y la Rosa Producciones."
+echo "Copyright 2024-2025 Bloodbat / La Serpiente y la Rosa Producciones."
 echo
 echo "This program comes with ABSOLUTELY NO WARRANTY."
 echo "This is free software, and you are welcome to redistribute it"
