@@ -17,6 +17,8 @@ read -p "Press any key to continue or Ctrl-C to abort!" -n1 -s
 echo
 echo "Adding ignores to pacman.conf..."
 
+echo "#<<<<Begin GCC downgrader update prevention>>>>" >> /etc/pacman.conf
+
 echo "Adding [options] section..."
 
 echo "[options]" >> /etc/pacman.conf
@@ -28,5 +30,7 @@ echo "IgnorePkg = mingw-w64-x86_64-gcc" >> /etc/pacman.conf
 echo "Adding IgnorePkg = mingw-w64-x86_64-gcc-libs"
 
 echo "IgnorePkg = mingw-w64-x86_64-gcc-libs" >> /etc/pacman.conf
+
+echo "#<<<<End GCC downgrader update prevention>>>>" >> /etc/pacman.conf
 
 echo "Done."
