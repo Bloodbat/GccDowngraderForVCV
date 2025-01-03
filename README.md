@@ -29,20 +29,20 @@ If you used the preventgccupgrade.sh script...
 
   `<yourmsysinstalldir>/etc/pacman.conf`
 
-file with your favorite text editor.
+  file with your favorite text editor.
 
-Remove the lines between:
+- Remove the lines between:
 
-`#<<<<Begin GCC downgrader update prevention>>>>`
+  `#<<<<Begin GCC downgrader update prevention>>>>`
 
-and
+  and
 
-`#<<<<End GCC downgrader update prevention>>>>`
+  `#<<<<End GCC downgrader update prevention>>>>`
 
-You can remove those lines if you would like to, as well. (They are comments ignored by pacman).
+- You can remove those lines if you would like to, as well. (They are comments ignored by pacman).
 
-Save the file.
+- Save the file.
 
-And… that’s it, your MSYS2 GCC will update normally going forward.
+Andâ€¦ thatâ€™s it, your MSYS2 GCC will update normally going forward.
 
 Enjoy! -Bloodbat
